@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.counter-div {
+  width: 40rem;
+  border: 1px solid grey;
+  padding: 1rem;
+  background-color: rgb(42, 153, 190);
+  border-radius: 30px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.counter-div > * {
+  margin-bottom: 2rem;
+}
+
+.count {
+  font-size: 4rem;
+}
+
+.buttons button {
+  padding: 1rem;
+  margin: 0 1rem;
+  font-size: 1.5rem;
+  color: white;
+  border: none;
+  outline: none;
+  font-weight: 700;
+  outline: none;
+  border-radius: 3px;
+}
+
+button.Subtract{
+    background-color: crimson;
+}
+
+button.Add{
+    background-color: rgb(20, 220, 47);
+}
+
+button.Reset{
+    background-color: rgb(143, 134, 135);
+}
